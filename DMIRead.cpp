@@ -1,6 +1,7 @@
-#include "dmiread.h"
+#include "DMIRead.h"
 #include <iostream>
 #include <zlib.h>
+#include <png.h>
 
 int read_chunk_callback(png_structp ptr, png_unknown_chunkp chunk);
 void read_row_callback(png_structp ptr, png_uint_32 row, int pass);

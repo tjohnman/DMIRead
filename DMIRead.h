@@ -1,7 +1,6 @@
 #ifndef DMIREAD_H
 #define DMIREAD_H
 
-#include <png.h>
 #include <string>
 #include <vector>
 
